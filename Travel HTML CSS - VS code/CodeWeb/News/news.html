@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Việt Travel</title>
-    <link rel="stylesheet" href="asset/css/reset.css">
-    <link rel="stylesheet" href="asset/css/khuyenmai.css">
-    <link rel="stylesheet" href="asset/css/grid.css">
-    <link rel="stylesheet" href="asset/css/responsive.css">
+    <link rel="stylesheet" href="CodeWeb/Resset/reset.css">
+    <link rel="stylesheet" href="CodeWeb/News/news.css">
+    <link rel="stylesheet" href="CodeWeb/Grid/grid.css">
+    <link rel="stylesheet" href="CodeWeb/Responsive/responsive.css">
     <script src="https://kit.fontawesome.com/7bcb1b3896.js" crossorigin="anonymous"></script>
     <!-- Hotjar Tracking Code for https://hunglejp99.github.io/vntravel/ -->
     <script>
@@ -39,7 +39,7 @@
                     <div class="row">
                         <div class="l-6 m-8 c-8">
                             <div class="topbar--contact">
-                                <span><a href="tel:08021639917">+81 80 2163 9917</a></span>
+                                <span><a href="tel:08077373039">+81 80 77373039</a></span>
                                 <a href="#"><i class="fab fa-facebook-f topbar__icon"></i></a>
                                 <a href="#"><i class="fab fa-instagram topbar__icon"></i></a>
                                 <a href="#"><i class="fab fa-twitter topbar__icon"></i></a>
@@ -73,8 +73,8 @@
                             <ul class="head__nav__container--list">
                                 <li><a href="index.html">ホーム</a></li>
                                 <li><a href="dexuat.html">おすすめ</a></li>
-                                <li><a href="khuyenmai.html" class="active">キャンペーン</a></li>
-                                <li><a href="news.html">新着情報</a></li>
+                                <li><a href="khuyenmai.html">キャンペーン</a></li>
+                                <li><a href="news.html" class="active">新着情報</a></li>
                                 <li><a href="contact.html">お問い合わせ</a></li>
                             </ul>
                         </div>
@@ -117,93 +117,66 @@
             <label for="head__nav__mb--checkbox" class="head__mb__bar--overlay"></label>
         </div>
     </header>
-    <section class="tour">
-        <div class="grid wide">
-            <div class="tour__content">
-                <h2 class="tour__section--title">
-                    今月のキャンペーン
-                </h2>
-                <p>毎月、お得なパッケージツアーをご用意しております。
-                    
-                </br>お楽しみ下さい
-                </p>
-            </div>
-            <div class="tour__list">
+    <section class="news">
+        <div class="grid wide news__container">
+            <h4 class="news__container--title">
+                新着情報 & 旅行経験
+            </h4>
+            <div class="news__content">
                 <div class="row">
-                    <div class="col l-4 m-12 c-12">
-                        <div class="tour__item" style="background-image: url(img/gialai.jpg);">
-                            <div class="tour__item__container">
-                                <p class="tour__item__date">4/1-4/30</p>
-                                <div class="tour__item__content">
-                                    <h4 class="tour__item__title">Gia Lai</h4>
-                                    <div class="tour__item__price">
-                                        <del>300.000円</del>
-                                        <span>150.000円</span>
+                    <div class="col l-4 m-6 c-12">
+                        <a href="" class="news__link">
+                            <div class="news__item" style="background-image: url(img/loes-klinker-gPzixog6XLg-unsplash.jpg);">
+                                <div class="news__item__content">
+                                    <div class="news__item__header">
+                                        <h6>お腹いっぱい！</h6>
+                                        <p>2022/4/1</p>
                                     </div>
-                                    <div class="tour__item__rating">
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star"></i>
+                                    <div class="news__item__body">
+                                        <span>" 旅を楽しむ方法 "</span>
+                                        <p>食の魅力を充実するためには、第一に、地域の食に関する様々な情報を把握する必要が
+                                            ある。その上で、食材の選択、食べて・買う魅力、体験する魅力など、提供に関する様々
+                                            な工夫が必要になる。</p>
                                     </div>
-                                </div>
-                                <div class="btn__wrap">
-                                    <a href="#" class="btn">予約</a>
-                                    <div class="btn__bg"></div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col l-4 m-12 c-12">
-                        <div class="tour__item" style="background-image: url(img/gialai.jpg);">
-                            <div class="tour__item__container">
-                                <p class="tour__item__date">4/1-4/30</p>
-                                <div class="tour__item__content">
-                                    <h4 class="tour__item__title">Gia Lai</h4>
-                                    <div class="tour__item__price">
-                                        <del>300.000円</del>
-                                        <span>150.000円</span>
+                    <div class="col l-4 m-6 c-12">
+                        <a href="" class="news__link">
+                            <div class="news__item" style="background-image: url(img/loes-klinker-gPzixog6XLg-unsplash.jpg);">
+                                <div class="news__item__content">
+                                    <div class="news__item__header">
+                                        <h6>お腹いっぱい！</h6>
+                                        <p>2022/4/1</p>
                                     </div>
-                                    <div class="tour__item__rating">
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star"></i>
+                                    <div class="news__item__body">
+                                        <span>" 旅を楽しむ方法 "</span>
+                                        <p>食の魅力を充実するためには、第一に、地域の食に関する様々な情報を把握する必要が
+                                            ある。その上で、食材の選択、食べて・買う魅力、体験する魅力など、提供に関する様々
+                                            な工夫が必要になる。</p>
                                     </div>
-                                </div>
-                                <div class="btn__wrap">
-                                    <a href="#" class="btn">予約</a>
-                                    <div class="btn__bg"></div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col l-4 m-12 c-12">
-                        <div class="tour__item" style="background-image: url(img/gialai.jpg);">
-                            <div class="tour__item__container">
-                                <p class="tour__item__date">4/1-4/30</p>
-                                <div class="tour__item__content">
-                                    <h4 class="tour__item__title">Gia Lai</h4>
-                                    <div class="tour__item__price">
-                                        <del>300.000円</del>
-                                        <span>150.000円</span>
+                    <div class="col l-4 m-6 c-12">
+                        <a href="" class="news__link">
+                            <div class="news__item" style="background-image: url(img/loes-klinker-gPzixog6XLg-unsplash.jpg);">
+                                <div class="news__item__content">
+                                    <div class="news__item__header">
+                                        <h6>お腹いっぱい！</h6>
+                                        <p>2022/4/1</p>
                                     </div>
-                                    <div class="tour__item__rating">
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star rated"></i>
-                                        <i class="fa fa-star"></i>
+                                    <div class="news__item__body">
+                                        <span>" 旅を楽しむ方法 "</span>
+                                        <p>食の魅力を充実するためには、第一に、地域の食に関する様々な情報を把握する必要が
+                                            ある。その上で、食材の選択、食べて・買う魅力、体験する魅力など、提供に関する様々
+                                            な工夫が必要になる。</p>
                                     </div>
-                                </div>
-                                <div class="btn__wrap">
-                                    <a href="#" class="btn">予約</a>
-                                    <div class="btn__bg"></div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -264,19 +237,19 @@
                         <div class="footer__item__info">
                             <a href="" class="footer__info--link">
                                 <i class="fas fa-map-marked-alt"></i>
-                                IaGrai,Gia Lai
+                                Japan-VietNam
                             </a>
                         </div>
                         <div class="footer__item__info">
                             <a href="tel:08021639917" class="footer__info--link">
                                 <i class="fas fa-phone-alt"></i>
-                                +81 80-2163-9917
+                                +81 80-7737-3039
                             </a>
                         </div>
                         <div class="footer__item__info">
                             <a href="mailto:hungle99.japan@gmail.com" class="footer__info--link">
                                 <i class="fas fa-envelope-open-text"></i>
-                                hungle99.japan@gmail.com
+                                doducluong40@gmail.com
                             </a>
                         </div>
                         <div class="footer__item__info">
@@ -289,7 +262,7 @@
                 </div>
             </div>
             <div class="footer__copyright">
-                Copyright © by Hung Le
+                Copyright © by TEAM-GS
             </div>
         </div>
     </footer>
