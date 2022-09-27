@@ -1,6 +1,6 @@
-@import url(base.css);
+@import url(/VScode/CodeWeb/Base/base.css);
 header {
-    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(../../img/alessia-galimberti-xI5EneMQHLk-unsplash.jpg);
+    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(../../img/lehoi.jpg);
     background-attachment: fixed;
 }
 .head__nav{
