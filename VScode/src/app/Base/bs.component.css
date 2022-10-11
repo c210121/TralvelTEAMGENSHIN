@@ -30,7 +30,7 @@ header {
     height: 100vh;
     background-image:
     linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), 
-    url(../../img/background.jpg);
+    url(/VScode/src/app/img/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

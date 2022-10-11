@@ -1,6 +1,6 @@
-@import url(/VScode/CodeWeb/Base/base.css);
+@import url(/VScode/src/app/Base/bs.component.css);
 header {
-    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(../../img/lehoi.jpg);
+    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(/VScode/src/app/img/img/lehoi.jpg);
     background-attachment: fixed;
 }
 .head__nav{

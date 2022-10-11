@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ベトナム旅</title>
-    <link rel="stylesheet" href="/VScode/CodeWeb/Base/base.css">
-    <link rel="stylesheet" href="/VScode/CodeWeb/Resset/reset.css">
-    <link rel="stylesheet" href="/VScode/CodeWeb/News/news.css">
-    <link rel="stylesheet" href="/VScode/CodeWeb/Main/main.css">
-    <link rel="stylesheet" href="/VScode/CodeWeb/Grid/grid.css"> 
-    <link rel="stylesheet" href="/VScode/CodeWeb/Responsive/responsive.css">
+    <link rel="stylesheet" href="/VScode/src/app/resset/resset.component.css">
+    <link rel="stylesheet" href="/VScode/src/app/contact/contact.component.css">
+    <link rel="stylesheet" href="/VScode/src/app/Grid/grid.component.css">
+    <link rel="stylesheet" href="/VScode/src/app/responsive/responsive.component.css">
     <script src="https://kit.fontawesome.com/7bcb1b3896.js" crossorigin="anonymous"></script>
     <!-- Hotjar Tracking Code for https://hunglejp99.github.io/vntravel/ -->
     <script>
@@ -41,7 +39,7 @@
                     <div class="row">
                         <div class="l-6 m-8 c-8">
                             <div class="topbar--contact">
-                                <span><a href="tel:08077373039">+81 80 77373039</a></span>
+                                <span><a href="tel:08077373039">+81 80 7737 3039</a></span>
                                 <a href="https://www.facebook.com/profile.php?id=100085920807979"><i class="fab fa-facebook-f topbar__icon"></i></a>
                                 <a href="https://www.instagram.com/gteamgs/"><i class="fab fa-instagram topbar__icon"></i></a>
                                 <a href="https://twitter.com/gsteamptk123"><i class="fab fa-twitter topbar__icon"></i></a>
@@ -64,7 +62,7 @@
                 <div class="grid wide">
                     <div class="row">
                         <div class="col l-4 m-5 c-8">
-                            <a href="/VScode/CodeWeb/Main/Main.html">
+                            <a href="/VScode/src/app/main/main.component.html">
                                 <div class="head__nav__container--logo">
                                     <i class="fas fa-globe-asia head__nav__icon--logo"></i>
                                     VNTRAVEL
@@ -73,11 +71,11 @@
                         </div>
                         <div class="col l-8 m-7 c-6 hide-on-low-devices">
                             <ul class="head__nav__container--list">
-                                <li><a href="/VScode/CodeWeb/Main/Main.html">ホーム</a></li>
-                                <li><a href="/VScode/CodeWeb/Dexuat/dexuat.html">おすすめ</a></li>
-                                <li><a href="/VScode/CodeWeb/KhuyenMai/khuyenmai.html">キャンペーン</a></li>
-                                <li><a href="/VScode/CodeWeb/News/news.html" class="active">新着情報</a></li>
-                                <li><a href="/VScode/CodeWeb/Contact/contact.html">お問い合わせ</a></li>
+                                <li><a href="/VScode/src/app/main/main.component.html">ホーム</a></li>
+                                <li><a href="/VScode/src/app/dexuat/dexuat.component.html">おすすめ</a></li>
+                                <li><a href="/VScode/src/app//khuyenmai/khuyenmai.component.html">キャンペーン</a></li>
+                                <li><a href="/VScode/src/app/news/news.component.html">新着情報</a></li>
+                                <li><a href="/VScode/src/app/contact/contact.component.html" class="active">お問い合わせ</a></li>
                             </ul>
                         </div>
                         <div class="col m-6 c-4">
@@ -109,76 +107,31 @@
                     <i class="fas fa-times"></i>
                 </label>
                 <div class="head__mb_bar--list">
-                    <a href="/VScode/CodeWeb/Main/Main.html" class="head__mb__bar--link">ホーム</a>
-                    <a href="/VScode/CodeWeb/Dexuat/dexuat.html" class="head__mb__bar--link">おすすめ</a>
-                    <a href="/VScode/CodeWeb/KhuyenMai/khuyenmai.html" class="head__mb__bar--link">キャンペーン</a>
-                    <a href="/VScode/CodeWeb/News/news.html" class="head__mb__bar--link">新着情報</a>
-                    <a href="/VScode/CodeWeb/Contact/contact.html" class="head__mb__bar--link">お問い合わせ</a>
+                    <a href="/VScode/src/app/main/main.component.html" class="head__mb__bar--link">ホーム</a>
+                    <a href="/VScode/src/app/dexuat/dexuat.component.html" class="head__mb__bar--link">おすすめ</a>
+                    <a href="/VScode/src/app/khuyenmai/khuyenmai.component.html" class="head__mb__bar--link">キャンペーン</a>
+                    <a href="/VScode/src/app/news/news.component.html" class="head__mb__bar--link">新着情報</a>
+                    <a href="/VScode/src/app/contact/contact.component.html" class="head__mb__bar--link">お問い合わせ</a>
                 </div>
             </div>
             <label for="head__nav__mb--checkbox" class="head__mb__bar--overlay"></label>
         </div>
     </header>
-    <section class="news">
-        <div class="grid wide news__container">
-            <h4 class="news__container--title">
-                新着情報 & 旅行経験
-            </h4>
-            <div class="news__content">
-                <div class="row">
-                    <div class="col l-4 m-6 c-12">
-                        <a href="" class="news__link">
-                            <div class="news__item" style="background-image: url(/VScode/img/buncha.jpg);">
-                                <div class="news__item__content">
-                                    <div class="news__item__header">
-                                        <h6>お腹いっぱい！</h6>
-                                        <p>2023/4/1</p>
-                                    </div>
-                                    <div class="news__item__body">
-                                        <span>" 旅を楽しむ方法 "</span>
-                                        <p>食の魅力を充実するためには、第一に、地域の食に関する様々な情報を把握する必要が
-                                            ある。その上で、食材の選択、食べて・買う魅力、体験する魅力など、提供に関する様々
-                                            な工夫が必要になる。</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col l-4 m-6 c-12">
-                        <a href="" class="news__link">
-                            <div class="news__item" style="background-image: url(/VScode/img/buncha.jpg);">
-                                <div class="news__item__content">
-                                    <div class="news__item__header">
-                                        <h6>お腹いっぱい！</h6>
-                                        <p>2023/4/1</p>
-                                    </div>
-                                    <div class="news__item__body">
-                                        <span>" 旅を楽しむ方法 "</span>
-                                        <p>食の魅力を充実するためには、第一に、地域の食に関する様々な情報を把握する必要が
-                                            ある。その上で、食材の選択、食べて・買う魅力、体験する魅力など、提供に関する様々
-                                            な工夫が必要になる。</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col l-4 m-6 c-12">
-                        <a href="" class="news__link">
-                            <div class="news__item" style="background-image: url(/VScode/img/buncha.jpg);">
-                                <div class="news__item__content">
-                                    <div class="news__item__header">
-                                        <h6>お腹いっぱい！</h6>
-                                        <p>2023/4/1</p>
-                                    </div>
-                                    <div class="news__item__body">
-                                        <span>" 旅を楽しむ方法 "</span>
-                                        <p>食の魅力を充実するためには、第一に、地域の食に関する様々な情報を把握する必要が
-                                            ある。その上で、食材の選択、食べて・買う魅力、体験する魅力など、提供に関する様々
-                                            な工夫が必要になる。</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
+    <section class="contact">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-12 m-12 c-12">
+                    <div class="contact__container">
+                        <h4 class="contact__header">
+                            お問い合わせ
+                        </h4>
+                        <form action="" class="contact__form">
+                            <input type="text" class="contact__input contact__input1" placeholder="お名前" required>
+                            <input type="text" class="contact__input contact__input1" placeholder="Email" required>
+                            <input type="text" class="contact__input" placeholder="件名" required>
+                            <textarea name="" id="" class="contact__input" cols="5" rows="10" placeholder="内容" required></textarea>
+                            <button class="contact__btn btn">送信</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -243,7 +196,7 @@
                             </a>
                         </div>
                         <div class="footer__item__info">
-                            <a href="tel:08021639917" class="footer__info--link">
+                            <a href="tel:08077373039" class="footer__info--link">
                                 <i class="fas fa-phone-alt"></i>
                                 +81 80-7737-3039
                             </a>
@@ -251,7 +204,7 @@
                         <div class="footer__item__info">
                             <a href="mailto:doducluong14@gmail.com" class="footer__info--link">
                                 <i class="fas fa-envelope-open-text"></i>
-                                doducluong40@gmail.com
+                                doducluong14@gmail.com
                             </a>
                         </div>
                         <div class="footer__item__info">

@@ -1,4 +1,4 @@
-@import url(/VScode/CodeWeb/Base/base.css);
+@import url(/VScode/src/app/Base/bs.component.css);
 .tour {
     margin: 80px 0;
 }
