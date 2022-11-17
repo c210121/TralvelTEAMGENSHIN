@@ -9,13 +9,12 @@
     <meta name="google-site-verification" content="6snBBflntj2TXGYnPdXF1uVOYFa2EP-fwmyraTj5QRQ" />
     <meta name="msvalidate.01" content="C922F445E1EF492D971783C16F85EE22" />
     <title>ベトナム旅</title>
-    <link rel="stylesheet" href="/VScode/CodeWeb/Base/base.css">
-    <link rel="stylesheet" href="/VScode/CodeWeb/Resset/reset.css">
-    <link rel="stylesheet" href="/VScode/CodeWeb/Main/main.css">
-    <link rel="stylesheet" href="/VScode/CodeWeb/Grid/grid.css">
-    <link rel="stylesheet" href="/VScode/CodeWeb/Responsive/responsivecss.css">
+    <link rel="stylesheet" href="/VScode/src/app/Base/bs.component.css">
+    <link rel="stylesheet" href="/VScode/src/app/resset/resset.component.css">
+    <link rel="stylesheet" href="/VScode/src/app/main/main.component.css">
+    <link rel="stylesheet" href="/VScode/src/app/Grid/grid.component.css">
+    <link rel="stylesheet" href="/VScode/src/app/responsive/responsive.component.css">
     <script src="https://kit.fontawesome.com/ba20aa432c.js" crossorigin="anonymous"></script>
-    <!-- Hotjar Tracking Code for https://hunglejp99.github.io/vntravel/ -->
     <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -67,7 +66,7 @@
                 <div class="grid wide">
                     <div class="row">
                         <div class="col l-4 m-5 c-8">
-                            <a href="/VScode/CodeWeb/Main/Main.html">
+                            <a href="/VScode/src/index.html">
                                 <div class="head__nav__container--logo">
                                     <i class="fas fa-globe-asia head__nav__icon--logo"></i>
                                     VNTRAVEL
@@ -76,11 +75,11 @@
                         </div>
                         <div class="col l-8 m-7 c-6 hide-on-low-devices">
                             <ul class="head__nav__container--list">
-                                <li><a href="/VScode/CodeWeb/Main/Main.html" class="active">ホーム</a></li>
-                                <li><a href="/VScode/CodeWeb/Dexuat/dexuat.html">おすすめ</a></li>
-                                <li><a href="/VScode/CodeWeb/KhuyenMai/khuyenmai.html">キャンペーン</a></li>
-                                <li><a href="/VScode/CodeWeb/News/news.html">新着情報</a></li>
-                                <li><a href="/VScode/CodeWeb/Contact/contact.html">お問い合わせ</a></li>
+                                <li><a href="//VScode/src/index.html" class="active">ホーム</a></li>
+                                <li><a href="/VScode/src/app/dexuat/dexuat.component.html">おすすめ</a></li>
+                                <li><a href="/VScode/src/app/khuyenmai/khuyenmai.component.html">キャンペーン</a></li>
+                                <li><a href="/VScode/src/app/news/news.component.html">新着情報</a></li>
+                                <li><a href="/VScode/src/app/contact/contact.component.html">お問い合わせ</a></li>
                             </ul>
                         </div>
                         <div class="col m-6 c-4">
@@ -112,11 +111,11 @@
                     <i class="fas fa-times"></i>
                 </label>
                 <div class="head__mb_bar--list">
-                    <a href="/VScode/CodeWeb/Main/Main.html" class="head__mb__bar--link">ホーム</a>
-                    <a href="/VScode/CodeWeb/Dexuat/dexuat.html" class="head__mb__bar--link">おすすめ</a>
-                    <a href="/VScode/CodeWeb/KhuyenMai/khuyenmai.html" class="head__mb__bar--link">キャンペーン</a>
-                    <a href="/VScode/CodeWeb/News/news.html" class="head__mb__bar--link">新着情報</a>
-                    <a href="/VScode/CodeWeb/Contact/contact.html" class="head__mb__bar--link">お問い合わせ</a>
+                    <a href="/VScode/src/index.html" class="head__mb__bar--link">ホーム</a>
+                    <a href="/VScode/src/app/dexuat/dexuat.component.html" class="head__mb__bar--link">おすすめ</a>
+                    <a href="/VScode/src/app/khuyenmai/khuyenmai.component.html" class="head__mb__bar--link">キャンペーン</a>
+                    <a href="/VScode/src/app/news/news.component.html" class="head__mb__bar--link">新着情報</a>
+                    <a href="/VScode/src/app/contact/contact.component.html" class="head__mb__bar--link">お問い合わせ</a>
                 </div>
             </div>
             <label for="head__nav__mb--checkbox" class="head__mb__bar--overlay"></label>
@@ -229,7 +228,7 @@
                         <div class="col l-3 m-4 c-6">
                             <div class="trending__item">
                                 <div class="trending__item__img">
-                                    <img src="/VScode/img/hcm.jpg" alt="Hồ Chí Minh">
+                                    <img src="/VScode/src/app/img/img/hcm.jpg" alt="Hồ Chí Minh">
                                 </div>
                                 <div class="trending__item__content">
                                     <div class="trending__item__name">Quan 7</div>
@@ -241,7 +240,7 @@
                         <div class="col l-3 m-4 c-6">
                             <div class="trending__item">
                                 <div class="trending__item__img">
-                                    <img src="/VScode/img/gialai.jpg" alt="Gia Lai">
+                                    <img src="/VScode/src/app/img/img/gialai.jpg" alt="Gia Lai">
                                 </div>
                                 <div class="trending__item__content">
                                     <div class="trending__item__name">Pleiku</div>
@@ -253,7 +252,7 @@
                         <div class="col l-3 m-4 c-6">
                             <div class="trending__item">
                                 <div class="trending__item__img">
-                                    <img src="/VScode/img/vinhahlong1.jpg" alt="Vịnh hạ long">
+                                    <img src="/VScode/src/app/img/img/vinhahlong1.jpg" alt="Vịnh hạ long">
                                 </div>
                                 <div class="trending__item__content">
                                     <div class="trending__item__name">Ha Long 湾</div>
@@ -265,7 +264,7 @@
                         <div class="col l-3 m-4 c-6">
                             <div class="trending__item">
                                 <div class="trending__item__img">
-                                    <img src="/VScode/img/caubantay.jpg" alt="Cầu bàn tay - Đà nẵng">
+                                    <img src="/VScode/src/app/img/img/caubantay.jpg" alt="Cầu bàn tay - Đà nẵng">
                                 </div>
                                 <div class="trending__item__content">
                                     <div class="trending__item__name">Ban tay橋</div>
@@ -277,7 +276,7 @@
                         <div class="col l-3 m-4 c-6">
                             <div class="trending__item">
                                 <div class="trending__item__img">
-                                    <img src="/VScode/img/hue.jpg" alt="Kinh thành Huế">
+                                    <img src="/VScode/src/app/img/img/hue.jpg" alt="Kinh thành Huế">
                                 </div>
                                 <div class="trending__item__content">
                                     <div class="trending__item__name">フェー王城</div>
@@ -289,7 +288,7 @@
                         <div class="col l-3 m-4 c-6">
                             <div class="trending__item">
                                 <div class="trending__item__img">
-                                    <img src="/VScode/img/sapa.jpg" alt="Sapa">
+                                    <img src="/VScode/src/app/img/img/sapa.jpg" alt="Sapa">
                                 </div>
                                 <div class="trending__item__content">
                                     <div class="trending__item__name">sapa</div>
@@ -301,7 +300,7 @@
                         <div class="col l-3 m-0 c-0">
                             <div class="trending__item">
                                 <div class="trending__item__img">
-                                    <img src="/VScode/img/damsen.jpg" alt="Đầm sen Gia Lai">
+                                    <img src="/VScode/src/app/img/img/damsen.jpg" alt="Đầm sen Gia Lai">
                                 </div>
                                 <div class="trending__item__content">
                                     <div class="trending__item__name">ダムセン</div>
@@ -313,7 +312,7 @@
                         <div class="col l-3 m-0 c-0">
                             <div class="trending__item">
                                 <div class="trending__item__img">
-                                    <img src="/VScode/img/phuquoc.jpg" alt="Phú quốc">
+                                    <img src="/VScode/src/app/img/img/phuquoc.jpg" alt="Phú quốc">
                                 </div>
                                 <div class="trending__item__content">
                                     <div class="trending__item__name">Phu Quoc島</div>
@@ -343,13 +342,13 @@
                                 VNTRAVELは、S字型の国で最も美しい場所で最高のサービスと体験を提供しております。
                             </p>
                             <div class="footer__about__list">
-                                <a href="#" class="footer__about--link">
+                                <a href="https://www.facebook.com/profile.php?id=100085920807979" class="footer__about--link">
                                     <i class="fab fa-facebook-f footer__icon"></i>
                                 </a>
-                                <a href="#" class="footer__about--link">
+                                <a href="https://www.instagram.com/gteamgs/" class="footer__about--link">
                                     <i class="fab fa-instagram footer__icon"></i>
                                 </a>
-                                <a href="#" class="footer__about--link">
+                                <a href="https://twitter.com/gsteamptk123" class="footer__about--link">
                                     <i class="fab fa-twitter footer__icon"></i>
                                 </a>
                                 <a href="#" class="footer__about--link">
